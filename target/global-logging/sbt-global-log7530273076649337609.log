@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\pinchuk.a\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\pinchuk.a\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Oracle Corporation Java 1.8.0_202)
+[debug]       Load.loadUnit: plugins took 632.7074ms
+[debug]       Load.loadUnit: defsScala took 0.4199ms
+[debug] [Loading] Scanning directory C:\Users\pinchuk.a\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\pinchuk.a\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 25.9961 ms
+[debug]           Load.resolveProject(global-plugins) took 64.0605ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\pinchuk.a\.sbt\1.0\plugins, plugins: List(<none>))) took 123.027ms
+[debug] [Loading] Done in C:\Users\pinchuk.a\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 156.8022ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4394ms
+[debug]     Load.loadUnit(file:/C:/Users/pinchuk.a/.sbt/1.0/plugins/, ...) took 803.9818ms
+[debug]   Load.apply: load took 1074.2982ms
+[debug]   Load.apply: resolveProjects took 11.147ms
+[debug]   Load.apply: finalTransforms took 79.591ms
+[debug]   Load.apply: config.delegates took 11.9285ms
+[debug]   Load.apply: Def.make(settings)... took 587.3261ms
+[debug]   Load.apply: structureIndex took 161.2977ms
+[debug]   Load.apply: mkStreams took 8.4159ms
+[info] loading global plugins from C:\Users\pinchuk.a\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4232.7762ms
+[debug]           Load.loadUnit: plugins took 39.2378ms
+[debug]           Load.loadUnit: defsScala took 0.0068ms
+[debug] [Loading] Scanning directory C:\Users\pinchuk.a\IdeaProjects\udemy-scala-beginners\project
+[debug]             Load.loadUnit: mkEval took 18.1906ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\pinchuk.a\IdeaProjects\udemy-scala-beginners\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.2389 ms
+[info] loading settings for project udemy-scala-beginners-build from idea.sbt ...
+[debug]               Load.resolveProject(udemy-scala-beginners-build) took 2.6134ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id udemy-scala-beginners-build, base: C:\Users\pinchuk.a\IdeaProjects\udemy-scala-beginners\project, plugins: List(<none>))) took 5.3455ms
+[debug] [Loading] Done in C:\Users\pinchuk.a\IdeaProjects\udemy-scala-beginners\project, returning: (udemy-scala-beginners-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3119.7498ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.2404ms
+[debug]         Load.loadUnit(file:/C:/Users/pinchuk.a/IdeaProjects/udemy-scala-beginners/project/, ...) took 3170.9178ms
+[debug]       Load.apply: load took 3172.7842ms
+[debug]       Load.apply: resolveProjects took 0.1444ms
+[debug]       Load.apply: finalTransforms took 11.4171ms
+[debug]       Load.apply: config.delegates took 0.6427ms
+[debug]       Load.apply: Def.make(settings)... took 106.3708ms
+[debug]       Load.apply: structureIndex took 35.2424ms
+[debug]       Load.apply: mkStreams took 0.0044ms
+[info] loading project definition from C:\Users\pinchuk.a\IdeaProjects\udemy-scala-beginners\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 6643.5896ms
+[debug]     Load.loadUnit: defsScala took 0.0076ms
+[debug] [Loading] Scanning directory C:\Users\pinchuk.a\IdeaProjects\udemy-scala-beginners
+[debug]       Load.loadUnit: mkEval took 1.2729ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.3596 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 51.1487ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\pinchuk.a\IdeaProjects\udemy-scala-beginners, plugins: List(<none>))) took 57.1436ms
+[debug] [Loading] Done in C:\Users\pinchuk.a\IdeaProjects\udemy-scala-beginners, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2008.5688ms
+[debug]     Load.loadUnit: cleanEvalClasses took 22.6824ms
+[debug]   Load.loadUnit(file:/C:/Users/pinchuk.a/IdeaProjects/udemy-scala-beginners/, ...) took 8676.2541ms
+[debug] Load.apply: load took 8679.4584ms
+[debug] Load.apply: resolveProjects took 0.1519ms
+[debug] Load.apply: finalTransforms took 39.704ms
+[debug] Load.apply: config.delegates took 0.9874ms
+[debug] Load.apply: Def.make(settings)... took 105.7308ms
+[debug] Load.apply: structureIndex took 34.1788ms
+[debug] Load.apply: mkStreams took 0.0051ms
+[info] set current project to udemy-scala-beginners (in build file:/C:/Users/pinchuk.a/IdeaProjects/udemy-scala-beginners/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 63549 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 63549, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to udemy-scala-beginners (in build file:/C:/Users/pinchuk.a/IdeaProjects/udemy-scala-beginners/)
+[debug] > Exec(idea-shell, None, None)
